@@ -1,0 +1,252 @@
+
+.p-0{
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+
+header#masthead {
+	background-color: #ffffff;
+}
+a, a:hover {
+    background-color: transparent;
+    color: #9b5bab;
+}
+body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
+	color: #bbb !important;
+}
+
+a.site-title, .site-description {
+    color: #bbb !important;
+}
+
+.title-home-template {
+    background: #9b5bab;
+    
+}
+.title-home-template h1 {
+    color: #fff;
+	padding: 30px 0;
+    margin: 0px;
+}
+div#section-home-1 {
+    margin-top: 50px;
+}
+.navbar-dark .site-info {
+    color: rgba(0, 0, 0, 0.9);
+}
+#colophon .container-fluid {
+    padding: 40px 0;
+}
+.section-home-content-right p {
+    margin-bottom: 0px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.section-home-content-right a {
+    display: inline-block;
+    background: #cccccc;
+    font-weight: 300;
+    color: #fff;
+    width: 100%;
+    padding: 7px 0;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-decoration: none !important;
+}
+.section-home-content-right h5 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 10px 0 !important;
+    line-height: 1;
+}
+
+div#section-home-1 h4 {
+    margin-top: 0px;
+}
+.log_out_style h1 {
+	display: inline-block;
+    background: #dec9e3;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 38px;
+    color: #000;
+    cursor: pointer;
+}
+.log_out_style {
+    text-align: right;
+}
+div#section-home-1-c_1 {
+    margin-bottom: 15px;
+}
+.log_out_style h1 {
+    border-left: 3px solid #9b5bab;
+}
+.log_out_style h1.dashboard {
+    border-left: 0px;
+	padding: 0px;
+}
+.log_out_style h1 a {
+    display: inline-block;
+    background: #dec9e3;
+    padding: 30px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 38px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar-brand {
+    width: 100%;
+}
+header#masthead {
+	position: absolute;
+    top: 0px;
+    z-index: 9999999;
+    width: 100%;
+    text-align: center;
+	/* height: 110px; */
+}
+header#masthead img {
+    max-width: 300px;
+}
+div#section-home-1-new {
+    position: fixed !important;
+    top: 0px;
+    background-size: cover;
+    left: 0px !important;
+    width: 100% !important;
+    height: 100%;
+	margin: 0px;
+	background-position: 0 110px;
+	background-image: url(../images/graduate-photo.jpg) !important;
+}
+
+div#row_1_home_new {
+    position: absolute;
+    bottom: 60px;
+    max-width: 350px;
+    color: #fff;
+	background: rgba(255, 255, 255, 0.58);
+	border-radius: 5px;
+    overflow: hidden;
+
+}
+
+div#section-home-1-new-content {
+    margin-bottom: 0px;
+}
+div#section-home-1-new-content h1 {
+    margin: 0px;
+    background: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+div#section-homes-new-content-left_2 {
+	padding: 20px 20px 20px 20px;
+    margin-bottom: 0px;
+}
+div#section-homes-new-content-left_2 p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #000;
+}
+div#section-homes-new-content-left_2 a {
+	font-family: 'Segoe UI Semibold';
+	display: inline-block;
+    background: #007bff;
+    color: #fff;
+    width: 100%;
+    max-width: 250px;
+    font-weight: bold;
+    padding: 10px 0;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-decoration: none !important;
+}
+div#section-homes-new-content-left_2 p:last-child a {
+	display: inline-block;
+    background: none;
+    font-weight: 500;
+    color: #000;
+    width: 100%;
+    padding: 0px 0;
+    border-radius: 6px;
+    margin-top: 2px;
+    text-decoration: none !important;
+}
+
+@media screen and (max-width:767px){
+	div#row_1_home_new {
+		position: absolute;
+		bottom: 60px;
+		max-width: 300px;
+		color: #fff;
+		background: #ffffff94;
+		border-radius: 5px;
+		overflow: hidden;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+	}
+	div#section-home-1-new-content h1 {
+		margin: 0px;
+		background: #fff;
+		padding: 15px;
+		font-size: 18px;
+	}
+	div#section-homes-new-content-left_2 p {
+		font-size: 13px;
+		margin-bottom: 10px;
+		line-height: 1.2;
+		color: #000;
+	}
+	div#section-homes-new-content-left_2 {
+		padding: 15px;
+		margin-bottom: 0px;
+	}
+	div#section-homes-new-content-left_2 a {
+		display: inline-block;
+		background: #007bff;
+		color: #fff;
+		width: 100%;
+		max-width: 200px;
+		font-weight: bold;
+		padding: 10px 0;
+		border-radius: 6px;
+		margin-top: 10px;
+		text-decoration: none !important;
+	}
+}
+
+@media screen and (max-width:550px){
+	header#masthead img {
+		max-width: 150px;
+	}
+	header#masthead {
+		position: absolute;
+		top: 0px;
+		z-index: 9999999;
+		width: 100%;
+		text-align: center;
+		height: 110px;
+		padding: 30px;
+	}
+}
+.navbar {
+    margin-bottom: 0px;
+}
+@media (min-width: 1200px){
+	.container {
+		width: 1140px;
+	}
+}
+.float-right {
+    float: right!important;
+}
+.p-0 {
+    padding: 0!important;
+}

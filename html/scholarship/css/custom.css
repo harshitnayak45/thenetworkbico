@@ -1,0 +1,1259 @@
+form.form-registration input {
+    width: 100%;
+	height: 35px;
+	padding: 0 10px;
+    border-radius: 3px;
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+}
+.form-registration .p_l_10{
+	padding-left:10px !important;
+}
+.form-registration .p_r_10{
+	padding-right:10px !important;
+}
+form.form-registration p {
+	margin-top: 15px;
+    margin-bottom: 5px !important;
+    line-height: 1;
+	font-weight: 600;
+}
+form.form-registration p.small {
+	font-weight: 300;
+	font-size:12px;
+	line-height: 15px !important;
+}
+.button-submit input {
+    max-width: 200px;
+    margin-top: 20px;
+    background: #9b5bab;
+    border: 0px;
+    border-radius: 3px;
+    margin-bottom: 30px !important;
+    height: 45px !important;
+	color:#fff;
+	font-weight:bold;
+	line-height: 1 !important;
+}
+body .next_steps_left1_1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 20px 30px !important;
+    background: #fafafa;
+    height: 100px;
+    line-height: 1;
+    float: left;
+    color: #cccccc;
+}
+.next_steps_left h3 {
+    margin: 0px;
+}
+.next_steps_left1 {
+    margin-bottom: 20px;
+}
+.next_steps_left1_2 {
+    background: #fafafa;
+    height: 100px;
+    border-left: 5px solid #fff;
+    padding-left: 20px !important;
+	padding-top: 12px !important;
+	padding-right: 80px !important;
+}
+.next_steps_right {
+    text-align: center;
+    max-width: 250px !important;
+    background: #fafafa;
+    padding: 20px !important;
+    border: 1px solid #9b5bab;
+    border-radius: 3px;
+}
+.log_out_style h1:hover, .log_out_style h1 a:hover {
+    background: #fafafa;
+}
+.application-detail .col-md-12:hover {
+    opacity: .5;
+}
+.next_steps_right h6 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0px;
+	/* color: #fff; */
+}
+.next_steps_right p {
+	font-weight: 600;
+    line-height: 1;
+}
+.next_steps_right h2 {
+    padding: 0px;
+    margin: 10px 0px;
+    font-size: 24px;
+    font-weight: bold;
+	/* color: #fff; */
+}
+.application-detail {
+    padding: 0 10px !important;
+}
+.application-detail .col-md-12 {
+	background: #fafafa;
+    text-align: center;
+    padding: 20px !important;
+    border: 1px solid #9b5bab;
+    border-radius: 3px;
+}
+.application-row {
+    margin: 0 -10px;
+}
+
+.application-detail svg {
+    font-size: 50px;
+}
+.application-row-main {
+    margin-bottom: 20px !important;
+}
+.application-detail h3 {
+    margin-bottom: 0px;
+}
+.application-detail form{
+	cursor:pointer;
+}
+.application-registration-detail-main-right .application-detail svg {
+    font-size: 30px;
+}
+.application-registration-detail-main-right h3 {
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.application-registration-detail-main-right .application-detail .col-md-12 {
+    background: #fafafa;
+    text-align: center;
+    padding: 20px 0 !important;
+}
+.form-application-registration-detail input[type="text"]:disabled {
+    background: #fafafa;
+}
+.button-submit input:hover {
+    opacity: .8;
+}
+.input-group.file-caption-main .btn.btn-primary.btn-file:hover {
+    opacity: .8;
+}
+.form-application-registration-detail p {
+    margin-top: 15px;
+    margin-bottom: 5px !important;
+    line-height: 1;
+	font-weight: 400;
+	font-size: 15px;
+}
+.form-application-registration-detail .p_r_10 {
+    padding-right: 10px !important;
+}
+.form-application-registration-detail .p_l_10 {
+    padding-left: 10px !important;
+}
+.form-application-registration-detail input[type="radio"] {
+	width:auto;
+	float:left;
+	height: 35px;
+    padding: 0 10px;
+}
+.form-application-registration-detail label {
+    display: inline-block;
+    margin-bottom: 0px;
+    float: left;
+    line-height: 31px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.form-application-registration-detail input[type=text], .form-application-registration-detail input[type=button] {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 3px;
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+}
+body .application-registration-detail-main-left {
+    padding-right: 120px !important;
+}
+
+.file_style_input input{
+	
+}
+.file_style_input {
+    text-align: center;
+}
+.file_style_input {
+    /* margin-top: 25px; */
+}
+.application-registration-detail h2 {
+    margin-top: 0px;
+	font-size: 34px !important;
+}
+
+.file_show_value .file-preview {
+    display: none;
+}
+.file_show_value img {
+    margin-bottom: 20px;
+    float: left;
+	max-width: 100px;
+}
+.clone_guardian_button h3{
+	cursor:pointer;
+}
+
+body .clone_guardian {
+    margin-top: 30px;
+    padding-top: 10px !important;
+    border-top: 1px solid #ccc;
+}
+body .clone_guardian:first-child{
+	margin-top: 0px;
+    padding-top: 0px  !important;
+    border-top: 0px ;
+}
+
+.application-registration-detail h3 {
+    font-size: 24px !important;
+    margin-bottom: 10px !important;
+    margin-top: 30px !important;
+}
+
+.application-registration-detail select {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 3px;
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+}
+.application-registration-detail textarea {
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 3px;
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+}
+.form-application-registration-detail h6 {
+    cursor: pointer;
+}
+
+body .clone_extracurricular_button {
+    margin-bottom: 30px;
+}
+
+.extracurricular_clone_detail {
+    margin-top: 30px;
+    padding-top: 10px !important;
+    border-top: 1px solid #ccc;
+}
+body .extracurricular_clone_detail:first-child {
+    margin-top: 0px;
+    padding-top: 0px !important;
+    border-top: 0px;
+}
+body .volunteering_clone_detail:first-child {
+    margin-top: 0px;
+    padding-top: 0px !important;
+    border-top: 0px;
+}
+body .volunteering_clone_detail {
+    margin-top: 30px;
+    padding-top: 10px !important;
+    border-top: 1px solid #ccc;
+}
+body .organizations_clone_detail:first-child {
+    margin-top: 0px;
+    padding-top: 0px !important;
+    border-top: 0px;
+}
+body .organizations_clone_detail {
+    margin-top: 30px;
+    padding-top: 10px !important;
+    border-top: 1px solid #ccc;
+}
+
+body .clone_detail:first-child {
+    margin-top: 0px;
+    padding-top: 0px !important;
+    border-top: 0px;
+}
+body .clone_detail {
+    margin-top: 30px;
+    padding-top: 10px !important;
+    border-top: 1px solid #ccc;
+}
+
+ul.certification_ul li {
+    margin-top: 15px;
+    margin-bottom: 5px !important;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 15px;
+}
+.form-application-registration-detail p {
+    margin-top: 15px;
+    margin-bottom: 5px !important;
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 15px;
+}
+.certify_label label {
+    font-size: 20px;
+	margin-right: 30px;
+}
+.certify_label {
+    margin-top: 15px;
+}
+ul.recommendation_ul li {
+    list-style-type: circle;
+}
+.form-application-registration-detail p.title_review {
+    margin-top: 15px;
+    margin-bottom: 0px !important;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 15px;
+    color: #0000007d;
+	float: left;
+    width: 100%;
+}
+.Review-style h6 {
+    font-size: 20px;
+    margin-top: 0px;
+	line-height: 1;
+}
+.row-review-main {
+    margin-bottom: 50px  !important;
+}
+.Review-style svg {
+    font-size: 45px;
+    margin-top: 0px;
+}
+.Review-style p {
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+}
+.application-detail-form {
+    cursor: pointer;
+}
+.row-review-detail {
+    margin-bottom: 20px !important;
+}
+.Review-style p a {
+    color: #000;
+}
+a.submit_form_Review:hover, .button-submit input:hover {
+	background: #9b5bab;
+    text-decoration: none;
+	color: #fff;
+}
+a.submit_form_Review {
+    max-width: 200px;
+    margin-top: 0px;
+    background: #9b5bab;
+    border: 0px;
+    border-radius: 3px;
+    margin-bottom: 70px !important;
+    height: 38px;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    margin-left: 55px;
+}
+.application-registration-detail.Review-style h3 {
+    font-size: 15px !important;
+    margin-bottom: 10px !important;
+    margin-top: 20px !important;
+}
+.registration-shortcode-login{
+	margin-top:80px;
+}
+.form-registration-login p span{
+	cursor:pointer;
+}
+.application-registration-shortcode {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px !important;
+}
+.application-registration-shortcode2 {
+    width: 100%;
+    float: left;
+	margin-bottom: 20px !important;
+    margin-top: 20px;
+}
+.clone_remove:nth-child(1) h6.remove {
+    display: none;
+}
+h6.remove {
+	margin-top: 10px;
+    margin-bottom: 0px;
+    color: #9b5bab;
+    font-weight: 400;
+}
+.form-application-registration-detail p.small {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px !important;
+}
+.Review-style .form-application-registration-detail img {
+    max-width: 200px;
+    float: right;
+}
+
+.active_input{
+	display:none;
+	position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px !important;
+}
+.active_full .active_input {
+    color: #008000a3;
+}
+.active_full .active_input.fa-check-circle {
+    display: block;
+}
+.active_miss .active_input {
+    color: #ffff006e;
+}
+.active_miss .active_input.fa-circle {
+    display: block;
+}
+.application-registration-detail-main-right .active_input {
+    font-size: 13px !important;
+}
+
+.next_steps_left .c100.small {
+    font-size: 65px;
+}
+.next_steps_left .c100:hover:after {
+    /* top: 0.084em; */
+    /* left: 0.84em; */
+    width: 0.84em;
+    height: 0.84em;
+}
+.next_steps_left .c100:after {
+    top: 0.084em;
+    left: 0.084em;
+}
+.next_steps_left .c100:hover > span {
+    color: #51a351;
+}
+.next_steps_left .fill {
+    border-color: #51a351 !important;
+}
+.next_steps_left .bar {
+	border-color: #51a351 !important;
+}
+.next_steps_left h3 span.float-right {
+    color: #51a351;
+}
+.next_steps_left .p0 .fill {
+    border: 0px !important;
+}
+.load_ajax {
+    text-align: center;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    z-index: 99;
+    padding-top: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+div#example_length select {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+	margin: 0 10px;
+}
+div#example_length  input[type="search"] {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}
+div#example_wrapper .row {
+    width: 100%;
+}
+div#example_length {
+    text-align: left;
+    float: left;
+}
+div#example_filter {
+    float: right;
+}
+
+
+
+.modal.myModal p {
+	margin-top: 0px;
+}
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 200px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 83%;
+	padding-top: 0px;
+	display: inline-block;
+    float: none;
+    left: 0px;
+    right: 0px;
+    position: inherit;
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-content {
+	max-width: 400px;
+}
+span.close {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+}
+
+.read_more a {
+	cursor: pointer;
+}
+
+.modal-content .button-submit input[type="button"] {
+    margin-bottom: 0px !important;
+    padding: 0px 40px;
+    text-transform: uppercase;
+    height: 35px !important;
+}
+.modal-content h5 {
+    margin: 0px;
+}
+.modal-content .button-submit {
+    text-align: center;
+}
+.modal-content input[type="number"] {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 3px;
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+}
+.modal-content h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.application-registration-detail .not-have {
+    padding-top: 20px !important;
+    font-weight: 500;
+}
+.application-registration-detail .not-have input {
+    top: 1px;
+    position: relative;
+}
+.clone_guardian .col-md-8.p-0.float-left {
+	padding-right: 10px !important;
+}
+div#example_wrapper td {
+    font-size: 13px;
+}
+div#example_wrapper th {
+    font-size: 13px;
+}
+
+.application-detail-form-img img{
+	text-align: center;
+    float: none !important;
+}
+
+.application-detail-list-img img {
+    height: 30px;
+    width: 37px;
+    object-fit: contain;
+}
+div#section_transcripts_1 h1 {
+	color: #fff;
+    padding-bottom: 0px;
+}
+.form-registration-transcripts p.title_transcripts {
+	
+}
+.form-registration-transcripts p.title_review {
+    margin-bottom: 20px !important;
+    margin-top: 0px !important;
+}
+form.form-registration.form-registration-transcripts input {
+    height: auto;
+}
+
+
+.new-apply a{
+	text-align: center;
+}
+.new-apply a {
+	background: transparent !important;
+    color: #0921dc !important;
+    margin-top: 0px !important;
+    padding: 0 !important;
+    font-weight: 500 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+
+.modal.myModal1 {
+    padding-top: 135px;
+}
+.modal.myModal1 .modal-content {
+    max-width: 1110px;
+	padding-top: 20px;
+}
+.modal.myModal1 ul li {
+	position: relative;
+}
+.modal.myModal1 ul li:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f111";
+    color: #000;
+    font-size: 8px;
+    position: absolute;
+    left: -22px;
+    top: 10px;
+}
+
+
+h1.ranking-header-title {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    color: #4a2066;
+    line-height: 45px;
+}
+.content-ranking {
+    max-width: 1200px;
+    margin: auto;
+}
+.ranking-header {
+    padding: 20px 0px;
+	border-bottom: 1px solid #87619b;
+    margin-bottom: 0px;
+}
+.ranking-body-3 textarea {
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 3px;
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+}
+.ranking-body-3 .ranking-body-3-comments p {
+	margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 0px;
+    line-height: 1;
+    font-weight: 500;
+}
+.ranking-body-3 .ranking-body-3-comments {
+    padding-left: 0px !important;
+}
+input#submit_comments_ranking {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 3px;
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+    float: right;
+}
+.ranking-body-1 h2 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 0px;
+	position: relative;
+    margin-bottom: 30px;
+}
+.ranking-body-1 h2 span {
+	position: absolute;
+    right: 0px;
+    border: 1px solid #000;
+    padding: 5px 8px;
+    display: inline-block;
+    line-height: 12px;
+    top: 0px;
+	width: 25px;
+}
+
+.ranking-body-2 .application-registration-detail.Review-style {
+    padding: 0 30px !important;
+    border-left: 1px solid #4a2066;
+    border-right: 1px solid #4a2066;
+	padding-top: 30px !important;
+}
+.ranking-page .ranking-body-1 {
+    padding-top: 30px !important;
+}
+.ranking-page .ranking-body-3 {
+    padding-top: 30px !important;
+}
+.ranking-page .Review-style .form-application-registration-detail img {
+    max-width: 120px;
+    float: right;
+}
+li.small_li p.small {
+	display: inline-block;
+}
+li.small_li {
+    font-size: 12px;
+}
+.ranking-page .ranking-body-2 {
+    padding: 0 30px !important;
+}
+.ranking-body-1 {
+    /* margin-top: 30px; */
+}
+
+.summary-header.ranking-header {
+    margin-bottom: 30px;
+}
+.content-summary .title-body h2{
+    color: #69467f;
+	margin-bottom: 0px !important;
+}
+.content-summary  span.average {
+    margin-left: 70px;
+}
+table#summary-example thead tr {
+	border: 2px solid #69467f !important;
+}
+table#summary-example thead th {
+	background: #69467f;
+    color: #fff;
+	border: 2px solid #69467f !important;
+}
+.summary-body .title-body h2 a {
+    float: right;
+    text-decoration: none;
+    background: #dc2a28;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 19px;
+	position: relative;
+    top: -10px;
+}
+table#summary-example td.score a {
+	color: #69467f;
+    border: 1px solid #69467f;
+    padding: 2px 15px;
+    display: inline-block;
+    border-radius: 3px;
+	text-decoration: none;
+}
+.review-top-body-3  h2 span {
+    position: absolute;
+    right: 0px;
+    border: 1px solid #000;
+    padding: 5px 8px;
+    display: inline-block;
+    line-height: 12px;
+    top: 0px;
+}
+.review-top-body-3 h2 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.review-top-body-1 a span {
+    width: 30px;
+    display: inline-block;
+}
+.review-top-body-1 a:hover, .review-top-body-1 a.active {
+    text-decoration: none;
+    background: #ccc;
+    color: #212529;
+}
+.review-top-body-1 a {
+    width: 100%;
+    float: left;
+    display: inline-block;
+    font-weight: 500;
+    color: #212529;
+    text-decoration: none;
+    padding: 10px 15px;
+	margin-bottom: 5px;
+}
+.ranking-page.summary-page .review-top-p {
+    padding: 0px !important;
+}
+
+.ranking-page.summary-page  .review-top-p-2 {
+    padding: 0 20px !important;
+}
+
+.ranking-body-2-name h2 {
+    background: #69467f;
+    color: #fff;
+    padding: 20px 20px;
+    line-height: 45px;
+    margin-bottom: 30px !important;
+	text-align:right;
+	width: 100%;
+    float: left;
+}
+.ranking-body-2-name h2 span{
+	float:left;
+	line-height: 43px;
+	padding-left: 15px;
+}
+.ranking-body-2-name h2 a {
+    color: #69467f;
+    font-size: 16px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: inline-block;
+    line-height: 16px;
+	text-decoration: none;
+    position: relative;
+    top: -6px;
+}
+.review-top-body-1 a svg {
+    float: right;
+    top: 5px;
+    position: relative;
+}
+.review-top-body-2 {
+    word-break: break-word;
+}
+.review-top-body-2 .modal.myModal_2 {
+    text-align: left;
+    color: #000;
+	padding-top: 100px;
+}
+.modal.myModal_2 .modal-content {
+    max-width: 600px !important;
+	font-size: 18px !important;
+    font-weight: 300;
+	padding: 0px;
+}
+.modal.myModal_2 .modal-content h6 {
+    background: #69467f;
+    padding: 20px;
+    color: #fff;
+	margin-bottom: 0px;
+}
+.candidate-disqualification {
+    padding: 20px;
+}
+.candidate-disqualification input[name="submit_disqualifi"] {
+	font-size: 15px !important;
+    max-width: 300px;
+    text-align: center;
+    background-color: #fff;
+    color: #69467f;
+    border: 2px solid #69467f;
+    text-transform: inherit !important;
+    border-radius: 6px;
+    padding: 2px 20px !important;
+}
+.review-top-body-2 .form-application-registration-detail p {
+    font-size: 13px;
+	width: 100%;
+    float: left;
+}
+.input-group.file-caption-main .btn.btn-primary.btn-file {
+    background: #9b5bab !important;
+    border: #9b5bab !important;
+}
+@media screen and (max-width:1250px){
+	table#summary-example {
+		font-size: 13px;
+	}
+	.content-ranking {
+		max-width: 1000px;
+		margin: auto;
+	}
+	.ranking-page .form-application-registration-detail p.title_review {
+		font-size: 12px;
+	}
+	.ranking-page .form-application-registration-detail p {
+		font-size: 12px;
+	}
+	.ranking-page .Review-style .form-application-registration-detail img {
+		max-width: 100px;
+		float: right;
+	}
+	.modal.myModal1 ul li:before {
+    content: "";
+	}
+	.modal.myModal1 {
+		padding-top: 130px;
+	}
+	.new-apply div#section-homes-new-content-left_2 p {
+		font-size: 13px;
+		margin-bottom: 10px;
+		line-height: 1.2;
+		color: #000;
+	}
+	.new-apply ul {
+		padding-left: 0px !important;
+	}
+	.new-apply ul li span {
+		font-size: 13px !important;
+	}
+}
+@media screen and (max-width:1200px){
+	.section-home-content-right p {
+		font-size: 13px !important;
+	}
+	.section-home-content-right h5 {
+		font-size: 18px !important;
+	}
+	h1 {
+		font-size: 25px ;
+	}
+	.form-application-registration-detail label {
+		display: inline-block;
+		margin-bottom: 0px;
+		float: left;
+		line-height: 31px;
+		margin-right: 5px;
+		margin-left: 2px;
+		font-size: 14px;
+	}
+	.application-registration-detail-main-right .active_input {
+		font-size: 13px !important;
+		right: 10px;
+		top: 10px;
+	}
+	.title-home-template h1 {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width:1024px){
+	.summary-body .title-body h2 a {
+		float: right;
+		text-decoration: none;
+		background: #dc2a28;
+		display: inline-block;
+		color: #fff;
+		padding: 7px 20px;
+		border-radius: 5px;
+		font-size: 13px;
+		position: relative;
+		top: -3px;
+	}
+	table#summary-example {
+		font-size: 11px;
+	}
+	.content-ranking {
+		max-width: 600px;
+		margin: auto;
+	}
+	.ranking-page .ranking-body-1 {
+		padding-top: 30px !important;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.ranking-page .ranking-body-2 {
+		padding: 0 0px !important;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.ranking-body-2 .application-registration-detail.Review-style {
+		padding: 0px 0px !important;
+		border-left: 0px;
+		border-right: 0px;
+		padding-top: 30px !important;
+		border-top: 1px solid #4a2066;
+		border-bottom: 1px solid #4a2066;
+		margin-top: 30px;
+	}
+	.ranking-header {
+		text-align: center;
+		float: left;
+		width: 100%;
+		padding: 0px 0px;
+	}
+	.ranking-header a {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.ranking-header img {
+		max-width: 250px;
+	}
+	h1.ranking-header-title {
+		text-transform: uppercase;
+		font-size: 15px;
+		font-weight: bold;
+		color: #4a2066;
+		line-height: 45px;
+		width: 100%;
+		margin-top: 0px;
+	}
+	.ranking-page .ranking-body-3 {
+		padding-top: 30px !important;
+		width: 100%;
+		max-width: 100% !important;
+	}
+}
+@media screen and (max-width:991px){
+	div#example_wrapper th {
+		font-size: 11px;
+		padding: 5px;
+	}
+	div#example_wrapper td {
+		font-size: 11px;
+		padding: 5px;
+	}
+	.next_steps_left {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.next_steps_right {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.next_steps_left {
+		width: 100% !important;
+		max-width: 100% !important;
+		margin-bottom: 20px;
+	}
+	body .application-registration-detail-main-left {
+		padding-right: 0px !important;
+		max-width: 100% !important;
+	}
+	.application-registration-detail-main-right {
+		padding-right: 0px !important;
+		max-width: 100% !important;
+		width: 100% !important;
+	}
+	.title-home-template h1 {
+		font-size: 20px;
+	}
+	.application-registration-detail h2 {
+		font-size: 18px !important;
+	}
+	.form-application-registration-detail p {
+		font-size: 14px;
+	}
+	.application-registration-detail h3 {
+		font-size: 16px !important;
+	}
+	.next_steps_right h2 {
+		font-size: 18px;
+	}
+	.next_steps_right h6 {
+		font-size: 18px;
+	}
+	.application h2 {
+		font-size: 18px;
+	}
+	.application-detail h3 {
+		margin-bottom: 0px;
+		font-size: 12px;
+		font-weight: 400;
+		margin-top: 0px;
+	}
+	.application-detail svg {
+		font-size: 30px;
+	}
+	.active_input {
+		font-size: 13px !important;
+		right: 10px;
+		top: 10px;
+	}
+}
+
+@media screen and (max-width:767px){
+	.ranking-body {
+		padding: 0 20px !important;
+	}
+	.ranking-page .form-application-registration-detail p.title_review {
+		font-size: 15px;
+	}
+	.ranking-page .form-application-registration-detail p {
+		font-size: 15px;
+	}
+	.ranking-page .Review-style .form-application-registration-detail img {
+		max-width: 200px;
+		float: left;
+		margin-top: 20px;
+	}
+	.modal.myModal1 {
+		height: 475px;
+		overflow: auto;
+	}
+	.clone_guardian .col-md-8.p-0.float-left {
+		padding-right: 0px !important;
+	}
+	.form-registration .p_r_10 {
+		padding-right: 0px !important;
+	}
+	.form-registration .p_l_10 {
+		padding-left: 0px !important;
+	}
+	.title-home-template h1 {
+		color: #fff;
+		padding: 15px 0;
+		margin: 0px;
+		text-align: center;
+	}
+	.log_out_style {
+		text-align: center !important;
+	}
+	.log_out_style h1 a {
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+	.log_out_style h1 {
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+		margin-bottom: 20px !important;
+	}
+	.log_out_style {
+		text-align: center;
+	}
+	.form-application-registration-detail .p_r_10 {
+		padding-right: 0px !important;
+	}
+	.form-application-registration-detail .p_l_10 {
+		padding-left: 0px !important;
+	}
+	.application-row .application-detail {
+		padding: 0 10px !important;
+		margin-bottom: 20px;
+	}
+	.next_steps_left1_2 {
+		border-left: 0px solid #fff;
+		padding-left: 20px !important;
+		padding-top: 12px !important;
+		padding-right: 20px !important;
+	}
+}
+
+@media screen and (max-width:650px){
+	.next_steps_left h3 span.float-right {
+		color: #51a351;
+		float: left !important;
+		width: 100%;
+		line-height: 0px;
+		top: -15px;
+		position: relative;
+		font-weight: 300;
+		font-size: 14px;
+	}
+	.next_steps_left h3 {
+		margin: 0px;
+		float: left;
+		width: 100%;
+	}
+	.next_steps_left1_2 {
+		height: auto !important;
+	}
+}
+@media screen and (max-width:450px){
+	.title-home-template h1 {
+		font-size: 18px;
+	}
+	.next_steps_left .c100.small {
+		font-size: 65px;
+		margin: auto !important;
+		float: none;
+	}
+}
+
+
+a.summary_a_name:hover {
+	color: #69467f;
+}
+a.summary_a_name {
+    color: #000;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+.review-top-p-2 .col-md-10 .col-md-6.p-0.float-left:first-child, .review-top-p-2 .col-md-10 .col-md-4.p-0.float-left:first-child {
+	padding-left:0px !important;
+}
+.review-top-p-2 .col-md-10 .col-md-6.p-0.float-left:last-child, .review-top-p-2 .col-md-10 .col-md-4.p-0.float-left:last-child {
+	padding-right:0px !important;
+}
+.review-top-p-2 .col-md-10 .col-md-6.p-0.float-left, .review-top-p-2 .col-md-10 .col-md-4.p-0.float-left {
+    padding: 0 5px !important;
+}
