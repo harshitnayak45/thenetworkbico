@@ -115,12 +115,12 @@ header#masthead img {
 div#section-home-1-new {
     position: fixed !important;
     top: 0px;
-    background-size: cover;
+    background-size: cover !important;
     left: 0px !important;
     width: 100% !important;
     height: 100%;
 	margin: 0px;
-	background-position: 0 110px;
+	background-position: 0 110px !important;
 	/* //background-image: url(../images/graduate-photo.jpg) !important; */
 }
 

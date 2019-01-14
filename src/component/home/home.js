@@ -23,7 +23,7 @@ class Home extends Component {
                         </header>
                     </div>
                     <div id="section-home-1-new"
-                        style={{ "background": "url(images/graduatephoto.jpg) no-repeat center right" }}
+                        style={{ "background": "url(images/graduatephoto.jpg)" }}
                     
                     >
                         <div className="container">
