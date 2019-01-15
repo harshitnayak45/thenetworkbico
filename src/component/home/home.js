@@ -8,7 +8,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <div className="home page-template page-template-homemain-template page-template-homemain-template-php page ">
+                <div className="">
                     <div id="page" className="site">
                         <header id="masthead" className="site-header navbar-static-top navbar-dark" role="banner">
                             <div className="container">
