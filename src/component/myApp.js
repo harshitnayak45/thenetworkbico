@@ -5,6 +5,8 @@ import { Route, Switch } from "react-router-dom";
 import Guardian from './app-layout/guardian/guardian';
 import Education from './app-layout/education/education';
 import Aspirations from './app-layout/aspirations/aspirations';
+import Extracurriculars from './app-layout/extracurriculars/extracurriculars';
+import Volunteering from './app-layout/volunteering/volunteering';
 
 class MyApp extends Component {
     render() {
@@ -29,6 +31,8 @@ class MyApp extends Component {
                                                                             <Route path='/app/guardian' component={Guardian} />
                                                                             <Route path='/app/education' component={Education} />
                                                                             <Route path='/app/aspirations' component={Aspirations} />
+                                                                            <Route path='/app/extracurriculars' component={Extracurriculars} />
+                                                                            <Route path='/app/volunteering' component={Volunteering} />
 
                                                                         </Switch>
                                                                         <AppSidebar />
