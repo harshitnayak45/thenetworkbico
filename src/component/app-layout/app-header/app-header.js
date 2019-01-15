@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link} from 'react-router-dom';
 class AppHeader extends Component {
     render() {
         return (
@@ -10,9 +11,11 @@ class AppHeader extends Component {
                                 <h1>The Lewis H. Latimer Scholarship</h1>
                             </div>
                             <div className=" col-md-6 float-right p-0 log_out_style">
-                                <h1 className="exit">Log Out / Exit</h1>
-                                <div className="thank-you"></div>
-                            </div>
+                                <h1 className="dashboard"> <Link to={'/'}>Dashboard</Link></h1>
+                                <h1 className="save_exit_Application">Save and exit</h1>
+                                <input type="hidden" name="ajaxUrl" value="http://scholarship.thenetworkbicp.org/wp-admin/admin-ajax.php" />
+                                    <div className="thank-you"></div>
+				</div>
                         </div>
                     </div>
                 </div>

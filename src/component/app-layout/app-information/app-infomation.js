@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { Link, Route, Switch } from 'react-router-dom';
+import Application from '../application/application';
 
 class AppInformation extends Component {
     render() {
         return (
             <div>
+               
                 <div id="page" className="site">
                     <div id="content" className="site-content col-md-12  float-left p-0">
                         <div className="container">
@@ -66,7 +68,7 @@ class AppInformation extends Component {
                                                                                 <div className="col-md-12 p-0 application-row-main float-left">
                                                                                     <div className="application-row">
                                                                                         <div className="col-md-3 float-left  application-detail">
-                                                                                        <Link to={'/layout/application'}>
+                                                                                        <Link to={'/app'}>
                                                                                             <form className="col-md-12 float-left   application-detail-form active_empty">
                                                                                                 <svg className="svg-inline--fa fa-check-circle fa-w-16 active_input" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg><i className="active_input fa fa-check-circle" aria-hidden="true"></i>
                                                                                                 <svg className="svg-inline--fa fa-circle fa-w-16 active_input" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg> <i className="active_input fa fa-circle" aria-hidden="true"></i>
@@ -78,31 +80,37 @@ class AppInformation extends Component {
 																		
 																	</div>
                                                                                                 <div className="col-md-3  float-left  application-detail">
-                                                                                                    <form action="application-infomation/guardian.html" method="post" className="col-md-12 float-left   application-detail-form active_">
+                                                                                        <Link to={'/app/guardian'}>
+                                                                                                    <form  className="col-md-12 float-left   application-detail-form active_">
                                                                                                         <svg className="svg-inline--fa fa-check-circle fa-w-16 active_input" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg><i className="active_input fa fa-check-circle" aria-hidden="true"></i> 
 																			<svg className="svg-inline--fa fa-circle fa-w-16 active_input" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg> <i className="active_input fa fa-circle" aria-hidden="true"></i>
 																			<img src="images/guardian-icon.png"/>
                                                                                                             <h3>Guardian</h3>
                                                                                                             <input type="hidden" name="status" value="Guardian"/>
 																		</form>
+                                                                        </Link>
 																	</div>
                                                                                                         <div className="col-md-3  float-left  application-detail">
-                                                                                                            <form action="application-infomation/education.html" method="post" className="col-md-12 float-left   application-detail-form active_empty">
+                                                                                        <Link to={'/app/education'}>
+                                                                                                            <form className="col-md-12 float-left   application-detail-form active_empty">
                                                                                                                 <svg className="svg-inline--fa fa-check-circle fa-w-16 active_input" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg><i className="active_input fa fa-check-circle" aria-hidden="true"></i>
 																			<svg className="svg-inline--fa fa-circle fa-w-16 active_input" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg> <i className="active_input fa fa-circle" aria-hidden="true"></i> 
 																			<img src="images/education-icon.png"/>
                                                                                                                     <h3>Education</h3>
                                                                                                                     <input type="hidden" name="status" value="Education"/>
 																		</form>
+                                                                                        </Link>
 																	</div>
                                                                                                                 <div className="col-md-3  float-left  application-detail">
-                                                                                                                    <form action="application-infomation/aspirations.html" method="post" className="col-md-12 float-left   application-detail-form application-detail-form active_">
+                                                                                        <Link to={'/app/aspirations'}>
+                                                                                                                    <form className="col-md-12 float-left   application-detail-form application-detail-form active_">
                                                                                                                         <svg className="svg-inline--fa fa-check-circle fa-w-16 active_input" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="check-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path></svg><i className="active_input fa fa-check-circle" aria-hidden="true"></i>
 																			<svg className="svg-inline--fa fa-circle fa-w-16 active_input" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg><i className="active_input fa fa-circle" aria-hidden="true"></i>
 																			<img src="images/aspirations-icon.png"/>
                                                                                                                             <h3>Aspirations</h3>
                                                                                                                             <input type="hidden" name="status" value="Aspirations"/>
 																		</form>
+                                                                        </Link>
 																	</div>
 																</div>
                                                                                                                 </div>
@@ -204,7 +212,7 @@ class AppInformation extends Component {
 		</div>
 	</div>
 </div>
-
+                
             </div>
                                                                                                             );
                                                                                                         }

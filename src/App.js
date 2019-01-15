@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import MainLayout from './component/mainLayout';
 // import './App.css';
-import AppLayout from './component/app-layout/app-layout';
-import Home from './component/home/home';
-import Login from './component/login/login';
 
 
 
@@ -14,10 +12,8 @@ class App extends Component {
         <Router>
           <div>
             <Switch>
-              <Route path="/layout" component={AppLayout} />
-              <Route path="/" component={Home} />
-             
-             
+              {/* <Route path="/layout" component={AppLayout} /> */}
+              <Route path="/" component={MainLayout} />
             </Switch>
 
           </div>
