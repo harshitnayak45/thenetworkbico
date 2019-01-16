@@ -7,6 +7,9 @@ import Education from './app-layout/education/education';
 import Aspirations from './app-layout/aspirations/aspirations';
 import Extracurriculars from './app-layout/extracurriculars/extracurriculars';
 import Volunteering from './app-layout/volunteering/volunteering';
+import Organizations from './app-layout/organizations/organizations';
+import Work from './app-layout/work/work';
+import Essay from './app-layout/essay/essay';
 
 class MyApp extends Component {
     render() {
@@ -25,7 +28,7 @@ class MyApp extends Component {
                                                         <div className="wpb_text_column wpb_content_element ">
                                                             <div className="wpb_wrapper">
                                                                 <div className="application-registration-shortcode2">
-                                                                    <div>
+                                                                    <div> 
                                                                         <Switch>
                                                                             <Route exact path='/app' component={Application} />
                                                                             <Route path='/app/guardian' component={Guardian} />
@@ -33,6 +36,12 @@ class MyApp extends Component {
                                                                             <Route path='/app/aspirations' component={Aspirations} />
                                                                             <Route path='/app/extracurriculars' component={Extracurriculars} />
                                                                             <Route path='/app/volunteering' component={Volunteering} />
+                                                                            <Route path='/app/organizations' component={Organizations} />
+                                                                            <Route path='/app/work' component={Work} />
+                                                                            <Route path='/app/essay' component={Essay} />
+                                                                            <Route path='/app/certification' component={Organizations} />
+                                                                            <Route path='/app/recommend' component={Organizations} />
+                                                                            <Route path='/app/review' component={Organizations} />
 
                                                                         </Switch>
                                                                         <AppSidebar />

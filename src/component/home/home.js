@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -130,8 +131,8 @@ class Home extends Component {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <p style={{ "textAlign": "center" }}><a href="registration.html">Apply Now</a></p>
-                                                <p style={{ "textAlign": "center" }}><a href="login.html">Resume application</a></p>
+                                                <p style={{ "textAlign": "center" }}><Link to={'/register'}>Apply Now</Link></p>
+                                                <p style={{ "textAlign": "center" }}><Link to={'/login'}>Resume application</Link></p>
                                             </div>
                                         </div>
                                     </div>
