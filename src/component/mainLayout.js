@@ -5,8 +5,6 @@ import AppLayout from './appLayout';
 import Register from './register/register';
 import Login from './login/login';
 
-
-
 class MainLayout extends Component {
     render() {
         return (

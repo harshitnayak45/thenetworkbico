@@ -208,11 +208,11 @@ body .clone_guardian {
     padding-top: 10px !important;
     border-top: 1px solid #ccc;
 }
-body .clone_guardian:first-child{
+/* body .clone_guardian:first-child{
 	margin-top: 0px;
     padding-top: 0px  !important;
     border-top: 0px ;
-}
+} */
 
 .application-registration-detail h3 {
     font-size: 24px !important;
@@ -387,9 +387,9 @@ a.submit_form_Review {
 	margin-bottom: 20px !important;
     margin-top: 20px;
 }
-.clone_remove:nth-child(1) h6.remove {
+/* .clone_remove:nth-child(1) h6.remove {
     display: none;
-}
+} */
 h6.remove {
 	margin-top: 10px;
     margin-bottom: 0px;

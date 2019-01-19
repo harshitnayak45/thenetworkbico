@@ -10,6 +10,8 @@ import Volunteering from './app-layout/volunteering/volunteering';
 import Organizations from './app-layout/organizations/organizations';
 import Work from './app-layout/work/work';
 import Essay from './app-layout/essay/essay';
+import Certification from './app-layout/certification/certification';
+import Recommend from './app-layout/recommend/recommend';
 
 class MyApp extends Component {
     render() {
@@ -39,9 +41,9 @@ class MyApp extends Component {
                                                                             <Route path='/app/organizations' component={Organizations} />
                                                                             <Route path='/app/work' component={Work} />
                                                                             <Route path='/app/essay' component={Essay} />
-                                                                            <Route path='/app/certification' component={Organizations} />
-                                                                            <Route path='/app/recommend' component={Organizations} />
-                                                                            <Route path='/app/review' component={Organizations} />
+                                                                            <Route path='/app/certification' component={Certification} />
+                                                                            <Route path='/app/recommend' component={Recommend} />
+                                                                          
 
                                                                         </Switch>
                                                                         <AppSidebar />

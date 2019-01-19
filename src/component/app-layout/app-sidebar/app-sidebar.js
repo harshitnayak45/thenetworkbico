@@ -145,7 +145,7 @@ class AppSidebar extends Component {
                                 </Link>
                             </div>
                             <div className="col-md-4  float-left  application-detail">
-                                <Link to={'/app/review'}>
+                                <Link to={'/review'}>
                                 <form id="Review" className="col-md-12 float-left   application-detail-form">
                                     <img src="../images/review-icon.png" />
                                     <h3>Review</h3>
