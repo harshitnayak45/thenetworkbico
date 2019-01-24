@@ -2,9 +2,9 @@
 jQuery(document).ready(function($) {
 	
 	
-	jQuery(".application-detail-form").click(function(){
-		$(this).submit();
-	});
+	// jQuery(".application-detail-form").click(function(){
+	// 	$(this).submit();
+	// });
 	
 	$('.style_input_file_custom').fileinput({
 		browseLabel: "Select file",

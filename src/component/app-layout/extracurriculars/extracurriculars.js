@@ -7,13 +7,18 @@ class Extracurriculars extends Component{
             fields: [],
             lists: [],
             lists2: [],
-          
         }
-      
 
     }
     componentDidMount() {
         
+    }
+    removeRow = (index) => {
+        console.log('xxxxxxxxxxx index', index);
+
+        this.state.lists.splice(index, 1);
+        this.setState({ lists: this.state.lists });
+
     }
     addExtracurricular = () => {
 
@@ -22,9 +27,6 @@ class Extracurriculars extends Component{
             'type_of_activity': this.refs.type_of_activity.value,
           
         }
-       
-
-     
 
             let lists = this.state.lists;
             lists.push(list)
@@ -94,15 +96,7 @@ class Extracurriculars extends Component{
 
 
 
-
-
-
-
-
-
-
                                             <div className="col-md-12 p-0 float-left extracurricular_clone_detail clone_remove">
-                                                <h6 className="remove float-right">remove</h6>
                                                 <div className="col-md-12 p-0 float-left">
                                                     <div className="col-md-12 p-0 float-left ">
                                                         <p>Extracurricular <span className="number_activity"></span> activity</p>

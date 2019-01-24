@@ -6,9 +6,11 @@ class Guardian extends Component {
             fields: [],
             fieldArray: [],
             counter: 1,
-            lists:[],
+            lists: [],
             lists2: [],
-            formShow:true
+            formShow: true,
+            email_address_guardian:'',
+            firstname_guardian:''
         }
         this.baseState = this.state
 
@@ -21,16 +23,16 @@ class Guardian extends Component {
 
     removeRow = (index) => {
         console.log('xxxxxxxxxxx index', index);
-      
-            this.state.lists.splice(index, 1);
-            this.setState({ lists: this.state.lists });
-      
+
+        this.state.lists.splice(index, 1);
+        this.setState({ lists: this.state.lists });
+
     }
 
     resetForm = () => {
-      
+
         this.myFormRef.reset();
-       
+
     }
     addGuardian = () => {
 
@@ -47,7 +49,7 @@ class Guardian extends Component {
 
         })
 
-        if (this.refs.email_address_guardian.value){
+        if (this.refs.email_address_guardian.value) {
 
             let lists = this.state.lists;
             lists.push(list)
@@ -57,12 +59,12 @@ class Guardian extends Component {
 
             this.resetForm();
 
-       }else{
-           alert('please fill email address');
-       }
+        } else {
+            alert('please fill email address');
+        }
         console.log('xxxxxxxxxxxxxxxx array list', this.state.lists);
     }
-    saveMe =()=>{
+    saveMe = () => {
         this.addGuardian();
         this.setState({
             formShow: false
@@ -70,32 +72,26 @@ class Guardian extends Component {
 
     }
 
-    // handleChange1 = (index)=> {
-
-    //     let lists2 = this.state.lists;
-
-    //     let list2 = {
-    //         'firstname_guardian': this.refs.firstname_guardian1.value,
-    //         'lastname_guardian': this.refs.lastname_guardian1.value,
-    //         'phone_cell_guardian': this.refs.phone_cell_guardian1.value,
-    //         'phone_home_guardian': this.refs.phone_home_guardian1.value,
-    //         'email_address_guardian': this.refs.email_address_guardian1.value,
-    //         'relationship': this.refs.relationship1.value
-    //     }
-
-    //     console.log('xxxxxxxxxxx index', index);
-    //         this.state.lists2.splice(index, 1, list2);
-    //         this.setState({ lists: this.state.lists2 });
-
-    //     console.log('xxxxxxxxxxxxxxxx array list', this.state.lists);
-
-    // }
-
-   
     handleChange(field, e) {
         let fields = this.state.fields;
         fields[field] = e.target.value;
         this.setState({ fields });
+    }
+
+    handleChangeEdit(index) {
+       
+         let lists2 = this.state.lists;
+
+        let list2 = {
+            'firstname_guardian': this.refs.firstname_guardian1.value,
+            'lastname_guardian': this.refs.lastname_guardian1.value,
+            'phone_cell_guardian': this.refs.phone_cell_guardian1.value,
+            'phone_home_guardian': this.refs.phone_home_guardian1.value,
+            'email_address_guardian': this.refs.email_address_guardian1.value,
+            'relationship': this.refs.relationship1.value
+        }
+
+
     }
 
     render() {
@@ -113,31 +109,31 @@ class Guardian extends Component {
                                         <div className="col-md-12 p-0 float-left">
                                             <div className="col-md-6 p-0 float-left p_r_10">
                                                 <p>First name</p>
-                                                <input type="text" name="firstname_guardian" ref="firstname_guardian1" id="firstname_guardian" value={array.firstname_guardian} />
+                                                <input type="text" name="firstname_guardian" ref="firstname_guardian1" value={array.firstname_guardian} />
                                             </div>
                                             <div className="col-md-6 p-0 float-left p_l_10">
                                                 <p>Last name</p>
-                                                <input type="text" name="lastname_guardian" ref="lastname_guardian1" id="lastname_guardian" value={array.lastname_guardian} />
+                                                <input type="text" name="lastname_guardian" ref="lastname_guardian1" value={array.lastname_guardian} />
                                             </div>
                                         </div>
                                         <div className="col-md-12 p-0 float-left">
                                             <div className="col-md-6 p-0 float-left p_r_10">
                                                 <p>Phone (cell)</p>
-                                                <input type="text" name="phone_cell_guardian" ref="phone_cell_guardian1" id="phone_cell_guardian" value={array.phone_cell_guardian} />
+                                                <input type="text" name="phone_cell_guardian" ref="phone_cell_guardian1" value={array.phone_cell_guardian} />
                                             </div>
                                             <div className="col-md-6 p-0 float-left p_l_10">
                                                 <p>Phone (home)</p>
-                                                <input type="text" placeholder="optional" name="phone_home_guardian" ref="phone_home_guardian1" id="phone_home_guardian" value={array.phone_home_guardian} />
+                                                <input type="text" placeholder="optional" name="phone_home_guardian" ref="phone_home_guardian1" value={array.phone_home_guardian} />
                                             </div>
                                         </div>
                                         <div className="col-md-12   p-0 float-left">
                                             <div className="col-md-6 p-0  float-left p_r_10">
                                                 <p>Email address</p>
-                                                <input type="text" name="email_address_guardian" name="email_address_guardian" ref="email_address_guardian1" id="email_address_guardian" value={array.email_address_guardian} />
+                                                <input type="text" onChange={this.handleChangeEdit.bind(this, index)}  value={array.email_address_guardian} />
                                             </div>
                                             <div className="col-md-6 p-0  float-left p_l_10">
                                                 <p>Relationship to applicant</p>
-                                                <input type="text" name="relationship" name="relationship" ref="relationship1" id="relationship" value={array.relationship} />
+                                                <input type="text" name="relationship" name="relationship" ref="relationship1" value={array.relationship} />
                                             </div>
                                         </div>
                                         <h6 className="remove float-right" onClick={this.removeRow.bind(this, index)}>remove </h6>
@@ -147,17 +143,12 @@ class Guardian extends Component {
 
                             <form ref={(el) => this.myFormRef = el} className="form-application-registration-detail">
                                 <div hidden={!this.state.formShow} className="col-md-12 p-0 float-left clone_guardian_main">
-                                    <div  className= 'col-md-12 p-0 float-left clone_guardian clone_remove'>
-                                        {/* {this.state.counter <= 1 ? (
-                                            null
-                                        ) : (
-                                                <h6 className="remove float-right" onClick={this.removeRow.bind(this, this.state.counter)}>remove </h6>
-                                            )} */}
+                                    <div className='col-md-12 p-0 float-left clone_guardian clone_remove'>
 
                                         <div className="col-md-12 p-0 float-left">
                                             <div className="col-md-6 p-0 float-left p_r_10">
                                                 <p>First name</p>
-                                                <input type="text" onChange={this.handleChange.bind(this, "firstname_guardian")} name="firstname_guardian" ref="firstname_guardian" id="firstname_guardian"  />
+                                                <input type="text" onChange={this.handleChange.bind(this, "firstname_guardian")} name="firstname_guardian" ref="firstname_guardian" id="firstname_guardian" />
                                             </div>
                                             <div className="col-md-6 p-0 float-left p_l_10">
                                                 <p>Last name</p>
@@ -167,23 +158,23 @@ class Guardian extends Component {
                                         <div className="col-md-12 p-0 float-left">
                                             <div className="col-md-6 p-0 float-left p_r_10">
                                                 <p>Phone (cell)</p>
-                                                <input type="text" onChange={this.handleChange.bind(this, "phone_cell_guardian")} name="phone_cell_guardian" ref="phone_cell_guardian" id="phone_cell_guardian"  />
+                                                <input type="text" onChange={this.handleChange.bind(this, "phone_cell_guardian")} name="phone_cell_guardian" ref="phone_cell_guardian" id="phone_cell_guardian" />
                                             </div>
                                             <div className="col-md-6 p-0 float-left p_l_10">
                                                 <p>Phone (home)</p>
-                                                <input type="text" onChange={this.handleChange.bind(this, "phone_home_guardian")} placeholder="optional" name="phone_home_guardian" ref="phone_home_guardian" id="phone_home_guardian"  />
+                                                <input type="text" onChange={this.handleChange.bind(this, "phone_home_guardian")} placeholder="optional" name="phone_home_guardian" ref="phone_home_guardian" id="phone_home_guardian" />
                                             </div>
                                         </div>
                                         <div className="col-md-12   p-0 float-left">
                                             <div className="col-md-6 p-0  float-left p_r_10">
                                                 <p>Email address</p>
-                                                <input type="text" onChange={this.handleChange.bind(this, "email_address_guardian")} name="email_address_guardian" name="email_address_guardian" ref="email_address_guardian" id="email_address_guardian"  />
+                                                <input type="text" onChange={this.handleChange.bind(this, "email_address_guardian")} name="email_address_guardian" name="email_address_guardian" ref="email_address_guardian" id="email_address_guardian" />
                                             </div>
                                             <div className="col-md-6 p-0  float-left p_l_10">
                                                 <p>Relationship to applicant</p>
                                                 <input type="text" onChange={this.handleChange.bind(this, "relationship")} name="relationship" name="relationship" ref="relationship" id="relationship" />
                                             </div>
-                                        </div> 
+                                        </div>
                                     </div>
                                 </div>
 
