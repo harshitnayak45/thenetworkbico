@@ -9,7 +9,6 @@ class Work extends Component{
     }
 
     addWork = () => {
-
         let list = {
             'position': this.refs.position.value,
             'repossibilities': this.refs.repossibilities.value,
@@ -22,20 +21,16 @@ class Work extends Component{
         })
 
         console.log('xxxxxxxxx', this.state.lists );
-
         this.resetForm();
 
     }
     resetForm = () => {
-
         this.myFormRef.reset();
-
     }
 
     removeRow = (index) => {
         this.state.lists.splice(index, 1);
         this.setState({ lists: this.state.lists });
-
     }
 
     handleChange(field, e) {

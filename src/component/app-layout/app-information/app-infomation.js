@@ -37,7 +37,7 @@ class AppInformation extends Component {
                                                                                                 </div>
                                                                                             </div>
                                                                                             <div className="col-md-10  float-left next_steps_left1_2 ">
-                                                                                                <h3 style={{"lineHeight": "75px"}}>Submit Application <span className="float-right">Application submitted 04-03-2018</span></h3>
+                                                                                                <h3 style={{"lineHeight": "75px"}}>Submit Application <span className="float-right">Application submitted 25-01-2019</span></h3>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div className="col-md-12 p-0 float-left next_steps_left1">
@@ -56,7 +56,7 @@ class AppInformation extends Component {
                                                                                         </div>
                                                                                     </div>
                                                                                     <div className="col-md-4  float-right next_steps_right">
-                                                                                        <h6>2018 deadline</h6>
+                                                                                        <h6>2019 deadline</h6>
                                                                                         <h2>in 0 days</h2>
                                                                                         <p>Complete application due on or before May 23</p>
                                                                                     </div>
